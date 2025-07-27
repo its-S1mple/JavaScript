@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM with examples </title>
+    <style>
+
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>Javascript DOM fun examples</h1>
+
+<section id = "example-1" >
+    <h2>Example 1: Change Text Content</h2>
+    <p id = "text" >This is the original text.</p>
+    <button id = "changeText" >Change Text</button>
+
+    </section>
+    
+<section id = "example-2" >
+    <h2>traversing the DOM</h2>
+    <ul id="citiesList">
+        <li>New york city</li>
+        <li>TOKYO</li>
+        <li>paris</li>
+        <li>LONDON </li>
+    </ul>
+    <button id="highlightFirstCity">Highlight First City</button>
+</section>
+
+<section id="example-3">
+    <h2>manipualting DOM Elements</h2>
+
+    <div id="coffeeOrder"> Order : <span id="coffeeType">latte</span>
+    </div>
+
+    <button id="changeOrder">change order to Espresso</button>
+</section>
+
+
+<section id="exapmle-4">
+    <h2>Adding and removing elements</h2>
+    <button id="addCity">Add City</button>
+    <button id="removeCity">Remove City</button>
+    <ul id="citiesList2">
+        
+        <li>New york city</li>
+        <li>TOKYO</li>
+        <li>paris</li>
+        <li>LONDON </li>
+    </ul>
+</section>
+
+<section id="example-6">
+    <h2>Event handling in DOM</h2>
+    <button id="showAlert">Click Me!</button>
+</section>
+
+<section id="example-7">
+    <h2>Event delegation</h2>
+    <ul id="citiesList3">
+        <li id="changeColor" ><button>Click me!</button> New york city</li>
+        <li><button>Click me!</button> TOKYO</li>
+        <li><button>Click me!</button> paris</li>
+        <li><button>Click me!</button> LONDON </li>
+    </ul>
+</section>
+
+<section id="example-8">
+    <h2>Form Handling</h2>
+    <form id="userForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
+
+
+<section id="example-9">
+    <h2>DOM content loaded  </h2>
+    <p id="domStatus">waiting for DOM to load...</p>
+</section>
+
+<section id="example-10">
+    <h2>CSS classes Manipulation</h2>  
+    
+    <p id="textToStyle">This text will be styled.</p>
+    <button id="toggleHighlight">Toggle Highlight</button>
+</section>
+
+
+
+
+<script src="./dom-and-bom_.js"></script>
+
+</body>
+</html>
